@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    background-color:#282D35;
+
+}
+nav{
+    display:flex;
+    background-color:#21222A;
+    padding:12px 10px;
+    align-items:center;
+    margin-bottom:50px;
+}
+.nav-logo
+{   width:30px;
+    margin-right:10px;
+}
+nav>h3{
+    color:skyblue;
+    font-size:26px;
+}
+nav>h4{
+    color:rgba(255, 255, 255, 0.858);
+    margin-left:auto;
+    font-size:20px;
+}
+.mainContent{
+    padding-left:60px;
+    color:white;
+    background-image:url("press.png");
+    background-size:20%;
+    background-repeat:no-repeat;
+    background-position-x:right;
+    background-position-y:60%;
+}
+.headcontent{
+    padding-bottom:20px;
+}
+.list-items{
+    padding-bottom:15px;
+    max-width:400px;
+    letter-spacing:0.095em;
+}
+.list-items::marker{
+    color:skyblue;
+    font-size:1.5em;
+}
